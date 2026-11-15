@@ -1,0 +1,107 @@
+
+# 2026-11-14 19:59:13.610429
++n
+
+# 2026-11-14 19:59:34.754320
++/add src\main\java
+
+# 2026-11-14 19:59:39.994491
++/as
+
+# 2026-11-14 20:00:17.001350
++how to mark ProsuctService with @Service?
+
+# 2026-11-14 20:10:00.249320
++I want to give `ProductService` a private list and a private counter
+
+# 2026-11-14 20:18:45.938427
++`addProduct` should do the following: addProduct(Product product) sets the id, adds to the list, 
++and returns the product.
+
+# 2026-11-14 20:22:10.034318
++/load src\main\java\uk\ac\westminster\products_api\ProductService.java
+
+# 2026-11-14 20:23:28.801989
++/add src\main\java\uk\ac\westminster\products_api\ProductService.java
+
+# 2026-11-14 20:23:41.369002
++reload src\main\java\uk\ac\westminster\products_api\ProductService.java
+
+# 2026-11-14 20:24:09.304541
++why is the add in addProdcut showing up in red color?
+
+# 2026-11-14 20:24:46.994532
++exit
+
+# 2026-11-14 20:24:55.191655
++src\main\java\uk\ac\westminster\products_api\ProductService.java
+
+# 2026-11-14 20:25:04.315578
++/bye
+
+# 2026-11-14 20:25:16.497669
++/exit
+
+# 2026-11-14 20:25:26.026358
++n
+
+# 2026-11-14 20:25:33.546054
++/asw
+
+# 2026-11-14 20:25:35.217456
++/as
+
+# 2026-11-14 20:25:51.561702
++/add src\main\java\uk\ac\westminster\products_api\ProductService.java
+
+# 2026-11-14 20:26:13.570036
++why is the add in `addProduct` showing as incorrect?
+
+# 2026-11-14 20:28:50.313957
++changed it but now the setId is showing as incorrect
+
+# 2026-11-14 20:33:01.552966
++I want to Declare the service field in the controller and annotate it @Autowired.
+
+# 2026-11-14 20:40:00.145598
++there seems to be something wrong with the `getProductById` method
+
+# 2026-11-14 20:49:34.241640
++/exi
+
+# 2026-11-14 22:31:30.817009
++n
+
+# 2026-11-14 22:31:37.905905
++/as
+
+# 2026-11-14 22:31:40.247819
++/add
+
+# 2026-11-14 22:31:57.609887
++/add src\main\java\uk\ac\westminster\products_api\ProductService.java
+
+# 2026-11-14 22:32:01.816853
++Add getProductById to the service, returning an Optional. 
+
+# 2026-11-14 22:35:39.098876
++/add src\main\java\uk\ac\westminster\products_api\ProductController.java
+
+# 2026-11-14 22:35:46.801606
++Add the GET /products/{id} endpoint. 
+
+# 2026-11-14 22:39:53.065356
++Add the POST /products endpoint. 
+
+# 2026-11-14 22:52:34.024592
++Add deleteProduct to the service and the DELETE endpoint to the controller.
+
+# 2026-11-15 11:09:56.466373
++Add findByName to ProductService. 
++It takes a String name and returns List<Product>. 
++Use .stream().filter(...).toList(). 
++Filter on p.getName().contains(name) so partial matches 
++work.
+
+# 2026-11-15 11:46:02.504016
++/exi
